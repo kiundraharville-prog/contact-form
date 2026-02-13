@@ -16,7 +16,7 @@ function ContactForm() {
 
   return (
     <form className="form-container" onSubmit={handleSubmit}>
-      <h2 className="form-title">Contact Me 💌</h2>
+      <h2 className="form-title">Contact Me </h2>
 
       <input
         className="form-input"
@@ -35,7 +35,7 @@ function ContactForm() {
       />
 
       <button className="form-button" type="submit">
-        Send 💖
+        Send 
       </button>
     </form>
   );
